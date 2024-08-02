@@ -1,0 +1,22 @@
+CREATE TABLE species_level_invasion_status (
+  aafss_scientific_name VARCHAR (255) PRIMARY KEY UNIQUE NOT NULL,
+  ausplots_name VARCHAR (255) NOT NULL,
+  act_status VARCHAR (255),
+  nsw_status VARCHAR (255),
+  nt_status VARCHAR (255),
+  qld_status VARCHAR (255),
+  sa_status VARCHAR (255),
+  tas_status VARCHAR (255),
+  vic_status VARCHAR (255),
+  wa_status VARCHAR (255),
+  aafss_national_status VARCHAR (255),
+  aafss_establishment_means VARCHAR (255),
+  aafss_degree_of_establishment VARCHAR (255),
+  external_ar_status VARCHAR (255),
+  external_coi_status VARCHAR (255),
+  external_cai_status VARCHAR (255),
+  external_chi_status VARCHAR (255),
+  external_lhi_status VARCHAR (255),
+  external_csi_status VARCHAR (255),
+  external_mdi_status VARCHAR (255)
+)
