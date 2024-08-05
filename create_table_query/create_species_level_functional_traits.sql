@@ -1,4 +1,4 @@
-CREATE TABLE species_level_functional_traits (
+CREATE TABLE IF NOT EXISTS species_level_functional_traits (
   species_name VARCHAR (255) PRIMARY KEY UNIQUE NOT NULL,
   family VARCHAR (50),
   genus VARCHAR (50),

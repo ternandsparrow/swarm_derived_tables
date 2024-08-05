@@ -1,4 +1,4 @@
-CREATE TABLE species_level_invasion_status (
+CREATE TABLE IF NOT EXISTS species_level_invasion_status (
   aafss_scientific_name VARCHAR (255) PRIMARY KEY UNIQUE NOT NULL,
   ausplots_name VARCHAR (255) NOT NULL,
   act_status VARCHAR (255),

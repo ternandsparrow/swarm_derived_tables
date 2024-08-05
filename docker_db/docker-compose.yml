@@ -1,0 +1,14 @@
+services:
+  db:
+    image: postgres:9.5.6
+    ports:
+      - '54545:5432'
+    environment:
+      - POSTGRES_USER=ausplots
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=ausplot_testing
+    volumes:
+      - db_data:/var/lib/postgresql/data
+      - ./init:/docker-entrypoint-initdb.d
+volumes:
+  db_data:

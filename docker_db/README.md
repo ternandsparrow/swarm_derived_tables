@@ -1,0 +1,1 @@
+our SWARM database is using postgres 9.5.6 which is quite outdated so I think it's better to test the script with docker so with can point the version to 9.5.6 or may be adjust the version in the future if we bump it

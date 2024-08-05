@@ -1,4 +1,4 @@
-CREATE TABLE plot_level_derived_indices (
+CREATE TABLE IF NOT EXISTS plot_level_derived_indices (
   site_unique VARCHAR (50) PRIMARY KEY UNIQUE NOT NULL,
   site_location_id SERIAL NOT NULL,
   site_location_visit_id SERIAL NOT NULL,

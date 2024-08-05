@@ -1,3 +1,5 @@
 *.env
 data
 !example.env
+docker_db/init/*
+!docker_db/init/README.md
